@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> My Web Developer Portfolio</title>
+  <style>  
+  body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1e1e2f;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about,
+    .projects,
+    .contact {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #1e1e2f;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .button {
+      display:inline-block;
+      padding:10px 16px;
+      background:#1e1e2f;
+      color:#fff;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+      font-size:.9rem;
+      text-decoration:none;
+      transition: var(--transition);
+    }
+    
+   form {
+      display:grid;
+      gap:1rem;
+    }
+    input, textarea {
+      padding:10px;
+      border:1px solid #cfd8e7;
+      border-radius:8px;
+      font-size:1rem;
+      width:100%;
+      resize: vertical;
+    }
+    footer {
+      text-align: center;
+      background: #1e1e2f;
+      color: #fff;
+      padding: 1rem;
+    }
+     a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blessing Ayeni</h1>
+    <p>Software Engineer | Web Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a beginner software engineer under PLP academy, I have background in Biomedical Science, Graphics design
+      and now I'm launching into Tech. I believe acquiring tech skills is very vital in today's technologically driven age.
+       Learning at PLP acdemy is pushing me beyond my limits and I love the challenge. I look forward to creating 
+       clean, user-friendly interfaces and efficient back-end systems.
+    </p>
+  </section>
+  <section class="Background">
+    <h2>Background Info</h2>
+
+    <div class="project">
+      <h3>Undergraduate Degree</h3>
+      <p>Bachelor in Medical Laboratory Science from University of Benin, Nigeria</p>
+      <p>View my CV here <a href="https://drive.google.com/file/d/17GO6aWtG96B7fyHfzj-YKX1dSIVPuFB8/view?usp=drivesdk" target="_blank">Blessing Ayeni CV</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Interest</h3>
+      <p>I love seeing the codes come alive into functional websites. It's exciting!.</p>
+    </div>
+    </section>
+
+  <section class="Background">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A simple website built with HTML and CSS...the one you're viewing now!</p>
+      <h3>Simple Calculator</h3>
+      <p>A simple calculator built via the PLP class tutorial <a href="https://github.com/Blessay/SEE/blob/main/Calculator.py" target="_blank">Calculator Project</a></p>
+
+    </div>
+    
+  </section>
+  <section class="contact">
+    <h2>Contact Details</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:blessingayeni97@gmail.com">blessingayeni97@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Blessay" target="_blank">github.com/Blessay</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/blessing-ometere-ayeni-2a75a719a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/blessingometereayeni</a></p>
+    </div>
+  </section>
+<!-- Contact Form -->
+    <section class="section">
+      <h2>Contact Form</h2>
+      <p>If you'd like to collaborate or have questions, send me a message:</p>
+      <form action="#" method="post" aria-label="Contact form (stub)">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Brief message..." required></textarea>
+        </div>
+        <button type="submit" class="button">Send Message</button>
+      </form>
+      <div style="margin-top:1rem;"></div>
+  <footer>
+    <p>&copy; 2025 Blessay. All rights reserved.</p>
+  </footer>
+
+  </body>
+</html>
